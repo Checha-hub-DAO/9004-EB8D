@@ -1,27 +1,24 @@
-﻿# health-summary  Date 2025-08-24
+﻿# health-summary — Дата 2025-08-24
 
-## Events
+## Події
 ```
-| 2025-08-24 09:07:11 | restore-drill | OK | 
-| 2025-08-24 09:19:44 | c07-report | OK | day start
-| 2025-08-24 09:19:44 | g43-iteta | START | topic #3 created (ITETA_Topic_003.md)
-| 2025-08-24 09:19:45 | c05-archive | OK | auto checkpoint
+| 2025-08-24 18:32:36 | weekly-summary | OK | span 2025-08-18..2025-08-24
+| 2025-08-24 20:00:11 | auto-archive | OK |
+| 2025-08-24 23:40:08 | c05-archive | OK | full backup: CHECHA_CORE_FULL_20250824_234002.zip
 ```
 
-## Counters (Module  Status)
+## Лічильники (Module × Status)
 
 | Module | Status | Count |
 |---|---|---|
+| auto-archive | OK | 1 |
 | c05-archive | OK | 1 |
-| c07-report | OK | 1 |
-| g43-iteta | START | 1 |
-| restore-drill | OK | 1 |
+| weekly-summary | OK | 1 |
 
-## Modules (total today)
+## Модулі (усього за день)
 
 | Module | Count |
 |---|---:|
+| auto-archive | 1 |
 | c05-archive | 1 |
-| c07-report | 1 |
-| g43-iteta | 1 |
-| restore-drill | 1 |
+| weekly-summary | 1 |
