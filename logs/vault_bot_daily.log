@@ -1,0 +1,84 @@
+﻿==== START 24.08.2025 11:10:31,63 ====
+OK: {'release': 'C12_v2.3.2025.08.24_1110', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:10:31,81 ====
+==== START 24.08.2025 11:12:24,84 ====
+OK: {'release': 'C12_v2.3.2025.08.24_1112', 'added': 4, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:12:25,03 ====
+==== START 24.08.2025 11:17:04,77 ====
+OK: {'release': 'C12_v2.3.2025.08.24_111704', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:17:04,93 ====
+==== START 24.08.2025 11:18:56,13 ====
+OK: {'release': 'C12_v2.3.2025.08.24_111856', 'added': 3, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:18:56,29 ====
+==== START 24.08.2025 11:24:10,67 ====
+OK: {'release': 'C12_v2.3.2025.08.24_112410', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:24:10,84 ====
+==== START 24.08.2025 11:26:03,98 ====
+OK: {'release': 'C12_v2.3.2025.08.24_112604', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:26:04,17 ====
+==== START 24.08.2025 12:17:11,65 ====
+OK: {'release': 'C12_v2.3.2025.08.24_121711', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 12:17:11,80 ====
+==== START 24.08.2025 12:20:42,97 ====
+OK: {'release': 'C12_v2.3.2025.08.24_122043', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 12:20:43,11 ====
+==== START 24.08.2025 12:40:57,20 ====
+OK: {'release': 'C12_v2.3.2025.08.24_124057', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 12:40:57,32 ====
+==== START 24.08.2025 12:42:09,14 ====
+OK: {'release': 'C12_v2.3.2025.08.24_124209', 'added': 0, 'sha256': '-', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 12:42:09,28 ====
+Тест: Привіт, світ!  ьїє Ґ 
+
+==== START 24.08.2025 13:10:12,11 ====
+  File "C:\CHECHA_CORE\C11\vault_bot.py", line 31
+    for ch, rep in [("[","\\["],("]","\\]"),("(","\\("),(")","\\)"),("*","\\*"),("_","\\_")]:
+                              ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+ExitCode=1 
+==== END 24.08.2025 13:10:12,26 ====
+==== START 24.08.2025 13:14:04,11 ====
+  File "C:\CHECHA_CORE\C11\vault_bot.py", line 32
+    for ch, rep in [("[","\\["],("]","\\]"),("(","\\("),(")","\\)"),("*","\\*"),("_","\\_")]:
+                              ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+ExitCode=1 
+==== END 24.08.2025 13:14:04,20 ====
+==== START 24.08.2025 13:21:20,89 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132121', 'added': 0, 'replaced': 0, 'sha256': '-', 'kpi_total': 62}
+ExitCode=0 
+==== END 24.08.2025 13:21:21,02 ====
+==== START 24.08.2025 13:22:08,62 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132208', 'added': 0, 'replaced': 0, 'sha256': '-', 'kpi_total': 62}
+ExitCode=0 
+==== END 24.08.2025 13:22:08,75 ====
+==== START 24.08.2025 13:22:14,24 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132214', 'added': 0, 'replaced': 0, 'sha256': '-', 'kpi_total': 62}
+ExitCode=0 
+==== END 24.08.2025 13:22:14,36 ====
+==== START 24.08.2025 13:25:14,12 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132514', 'added': 4, 'replaced': 0, 'sha256': '-', 'kpi_total': 66}
+ExitCode=0 
+==== END 24.08.2025 13:25:14,27 ====
+==== START 24.08.2025 13:26:11,62 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132611', 'added': 0, 'replaced': 0, 'sha256': '-', 'kpi_total': 66}
+ExitCode=0 
+==== END 24.08.2025 13:26:11,77 ====
+==== START 24.08.2025 13:28:43,56 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132843', 'added': 1, 'replaced': 0, 'sha256': '-', 'kpi_total': 67}
+ExitCode=0 
+==== END 24.08.2025 13:28:43,69 ====
+==== START 24.08.2025 14:37:01,55 ====
+OK: {'release': 'C12_v2.3.2025.08.24_143701', 'added': 0, 'replaced': 0, 'sha256': '-', 'kpi_total': 67}
+ExitCode=0 
+==== END 24.08.2025 14:37:01,77 ====

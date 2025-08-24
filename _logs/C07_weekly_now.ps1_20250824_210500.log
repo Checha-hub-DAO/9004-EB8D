@@ -1,0 +1,50 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250824210500
+Username: DESKTOP-2OLDAUU\serge
+RunAs User: DESKTOP-2OLDAUU\serge
+Configuration Name: 
+Machine: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Host Application: powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File C:\CHECHA_CORE\tools\C07_weekly_wrap.ps1 -Root C:\CHECHA_CORE -AliasName c07 -Bucket c07-reports -DockerNetwork checha_core_default
+Process ID: 16000
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Missing expression after unary operator '-'.
+At C:\CHECHA_CORE\tools\C07_weekly_now.ps1:85 char:2
++ |---|---:|
++  ~~~
+Expressions are only allowed as the first element of a pipeline.
+At C:\CHECHA_CORE\tools\C07_weekly_now.ps1:85 char:9
++ |---|---:|
++         ~
+Missing expression after unary operator '-'.
+At C:\CHECHA_CORE\tools\C07_weekly_now.ps1:85 char:6
++ |---|---:|
++      ~~~
+Expressions are only allowed as the first element of a pipeline.
+At C:\CHECHA_CORE\tools\C07_weekly_now.ps1:85 char:9
++ |---|---:|
++         ~
+Unexpected token ':' in expression or statement.
+At C:\CHECHA_CORE\tools\C07_weekly_now.ps1:85 char:11
++ |---|---:|
++           ~
+An empty pipe element is not allowed.
+At C:\CHECHA_CORE\tools\C07_weekly_now.ps1:86 char:37
++ | Events (OK+FAIL+PROGRESS+START) | $events |
++                                     ~~~~~~~
+Expressions are only allowed as the first element of a pipeline.
+Not all parse errors were reported.  Correct the reported errors and try again.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+**********************
+Windows PowerShell transcript end
+End time: 20250824210501
+**********************

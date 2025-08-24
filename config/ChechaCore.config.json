@@ -1,0 +1,72 @@
+﻿{
+    "root":  "D:\\CHECHA_CORE",
+    "schedules":  {
+                      "guardian":  "20:00",
+                      "kpi":  "20:05",
+                      "jsonreport":  "20:06",
+                      "archive":  "20:10",
+                      "retention":  "20:20",
+                      "selftest":  "22:30",
+                      "logrotate":  "00:05",
+                      "restore_drill":  {
+                                            "time":  "01:10",
+                                            "day":  "Sunday"
+                                        },
+                      "weekdays_only":  false
+                  },
+    "inbox":  {
+                  "overdue_hours":  24,
+                  "wip_stale_hours":  72,
+                  "wip_markers":  [
+                                      "_WIP"
+                                  ]
+              },
+    "retention_policy":  {
+                             "daily_days_folders":  60,
+                             "daily_days_zips":  90,
+                             "weekly_weeks_folders":  26,
+                             "weekly_weeks_zips":  26,
+                             "monthly_months_folders":  24,
+                             "monthly_months_zips":  36
+                         },
+    "archive":  {
+                    "zip":  true,
+                    "zip_encrypt":  false,
+                    "offsite":  {
+                                    "enabled":  true,
+                                    "path":  "E:\\CHECHA_BACKUPS"
+                                },
+                    "include":  [
+                                    "C02\\**",
+                                    "C03\\LOG.md",
+                                    "C03\\SYNC_LOG.md",
+                                    "C03\\INBOX_REPORTS\\**",
+                                    "C06\\FOCUS.md",
+                                    "C07\\KPI_TRACKER.md",
+                                    "C07\\DASHBOARD.md",
+                                    "C10\\**"
+                                ],
+                    "exclude":  [
+                                    "C05\\Archive\\**",
+                                    "**\\*.tmp",
+                                    "**\\*.log",
+                                    "**\\Thumbs.db",
+                                    "**\\.DS_Store"
+                                ]
+                },
+    "notifications":  {
+                          "telegram":  {
+                                           "enabled":  false,
+                                           "chat_id":  ""
+                                       },
+                          "email":  {
+                                        "enabled":  false,
+                                        "smtp":  "smtp.example.com",
+                                        "port":  587,
+                                        "from":  "checha@localhost",
+                                        "to":  "you@localhost",
+                                        "user":  "checha",
+                                        "tls":  true
+                                    }
+                      }
+}

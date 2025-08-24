@@ -1,0 +1,63 @@
+﻿==== START 24.08.2025 11:10:31,64 ====
+OK: {'release': 'C12_v2.3.2025.08.24_1110', 'added': 0, 'sha256': 'aad72c5dc58e0dc70685f903519c366b2bfd1fc3a3e3c24d59d877476d40529a', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:10:31,88 ====
+==== START 24.08.2025 11:12:35,93 ====
+OK: {'release': 'C12_v2.3.2025.08.24_1112', 'added': 0, 'sha256': 'c9660e67146d3ea40c91508b069d22a73f049907b875f03a50184ffe3bf01ff7', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:12:36,13 ====
+==== START 24.08.2025 11:17:04,96 ====
+OK: {'release': 'C12_v2.3.2025.08.24_111705', 'added': 0, 'sha256': '28414ddb35b2e962e4dc40b8032f961b68e5b3bb87fd6677d144d9b701719959', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 11:17:05,24 ====
+==== START 24.08.2025 12:40:57,35 ====
+OK: {'release': 'C12_v2.3.2025.08.24_124057', 'added': 0, 'sha256': 'd2c830db1c5ebcb87b9fa648f26d1363d31c2d176639f8a4025ab6ba60d97ab8', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 12:40:57,55 ====
+==== START 24.08.2025 12:42:09,69 ====
+OK: {'release': 'C12_v2.3.2025.08.24_124209', 'added': 0, 'sha256': 'b22147b1fd6128e96819f190113b2fa53c37316470ed17a973cacb80e6cd2fe9', 'items_cleared': True}
+ExitCode=0 
+==== END 24.08.2025 12:42:09,89 ====
+
+==== START 24.08.2025 13:10:12,13 ====
+  File "C:\CHECHA_CORE\C11\vault_bot.py", line 31
+    for ch, rep in [("[","\\["],("]","\\]"),("(","\\("),(")","\\)"),("*","\\*"),("_","\\_")]:
+                              ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+ExitCode=1 
+==== END 24.08.2025 13:10:12,28 ====
+==== START 24.08.2025 13:14:04,42 ====
+  File "C:\CHECHA_CORE\C11\vault_bot.py", line 32
+    for ch, rep in [("[","\\["],("]","\\]"),("(","\\("),(")","\\)"),("*","\\*"),("_","\\_")]:
+                              ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+ExitCode=1 
+==== END 24.08.2025 13:14:04,51 ====
+==== START 24.08.2025 13:21:21,88 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132122', 'added': 0, 'replaced': 0, 'sha256': '52f0896a5146455603d055f56bc77a0f28eccc2ac0db543bee2e870a8c53a8e5', 'kpi_total': 62}
+ExitCode=0 
+==== END 24.08.2025 13:21:22,07 ====
+==== START 24.08.2025 13:22:09,66 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132209', 'added': 0, 'replaced': 0, 'sha256': '8b1e55e667baa48caffe48a9df31187ea9600b99dc9ef06485fff0bbd4b58ff8', 'kpi_total': 62}
+ExitCode=0 
+==== END 24.08.2025 13:22:09,84 ====
+==== START 24.08.2025 13:26:12,65 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132612', 'added': 0, 'replaced': 0, 'sha256': 'af1b0b54f6fc7cbe2df97aebef4efaf7a6727cc8203c2fc5515b8bff2274ebb7', 'kpi_total': 66}
+ExitCode=0 
+==== END 24.08.2025 13:26:12,83 ====
+==== START 24.08.2025 13:28:44,58 ====
+OK: {'release': 'C12_v2.3.2025.08.24_132844', 'added': 0, 'replaced': 0, 'sha256': 'e5d050e3f570e36d53a060ed1c7594e30cbce6b939a21fbed0e431605ee4b73c', 'kpi_total': 67}
+ExitCode=0 
+==== END 24.08.2025 13:28:44,75 ====
+==== START 24.08.2025 14:37:02,58 ====
+OK: {'release': 'C12_v2.3.2025.08.24_143702', 'added': 0, 'replaced': 0, 'sha256': '2bc35b491281d63391257b1312d49f9e87ff23fe5b45ce775573e9c00b619542', 'kpi_total': 67}
+ExitCode=0 
+==== END 24.08.2025 14:37:02,77 ====
+==== START 24.08.2025 14:42:16,77 ====
+OK: {'release': 'C12_v2.3.2025.08.24_144216', 'added': 0, 'replaced': 0, 'sha256': '280361bfb64ef4356a0d5d7e17b456e926d01b1bf0e30a446c4f5be42e393b21', 'kpi_total': 67}
+ExitCode=0 
+==== END 24.08.2025 14:42:16,94 ====
+==== START 24.08.2025 14:44:17,92 ====
+OK: {'release': 'C12_v2.3.2025.08.24_144418', 'added': 0, 'replaced': 0, 'sha256': '2a56f8131e42ace7f4cbdfad3d01f99560715a13d8b1c40c7edcadc617948b3f', 'kpi_total': 67}
+ExitCode=0 
+==== END 24.08.2025 14:44:18,08 ====

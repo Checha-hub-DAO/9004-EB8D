@@ -1,0 +1,215 @@
+{
+	"version": "1",
+	"shares": {
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T110337Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=004b10d4025cf8dd46de397fe8d1b2762c548b741be95b328235346cd2909f5f": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T11:03:37.987289341Z",
+			"expiry": 86400000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T111347Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=3e09e7e461bdf249724600e0f23e9bedb26a656d4d1a0971cdf9ebff54662c48": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T11:13:47.557416132Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T111658Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=775f346a0c8ff5db1e7476c63adb57acb832f7c60c30703a9ce1f7fe16ddcf4e": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T11:16:58.811678006Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120013Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=fc036ea2ed4de2ca5aeda21f42422818e4c526ebc9ad3f52688168f73623aeb4": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T12:00:13.476220694Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120509Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d19ac6e5835644ab4e37ef1429c6fa4908b03e54317fcb61bfd99897d33eaa32": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T12:05:09.609653138Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120643Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=15a5ef1e4e649a56e37d3a02cc3fdf42232baa3b459107db3fda8736860977b5": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T12:06:43.741162928Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120806Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=a58f2967cca2377eaf033a527575738f913fc5e9e649a7ce57170fbb5bbe304b": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T12:08:06.907660944Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121017Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=cba0ba717cc3f9ead488acfeab276fcbb6ad52c53d1a9b2ad2d319db381eb2ca": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T12:10:17.044295222Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121145Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=1f7ad0e60e400eb12ae908ba8e2b2314b34afcbc10a48099996ebbed1d06f741": {
+			"share": "http://host.docker.internal:9000/c07-reports/KPI_TRACKER.md",
+			"versionID": "",
+			"date": "2025-08-18T12:11:45.014625468Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T110337Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=041fbbcccf3e69925b79b322aa2c03326e0007a2d3a550bddb21ebc5a3323a6a": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T11:03:37.232729161Z",
+			"expiry": 86400000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T111346Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=2027e434b4a9e7f0a44aa6b61df91a4493ca4eef0ac2a1fa4f6ac3aca1482875": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T11:13:46.798103502Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T111658Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=a650a28878d094408b5f3651fb4f51fa1372798f415bd94ee1789004b2f3f37b": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T11:16:58.09076698Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120012Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=6fb7589e473f64c467a932e82087c3357c34e261cb7c9881c1a899996e091221": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T12:00:12.733304904Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120508Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=9ac553abee6ce63b6d28194a5ceebb2ed2bd224c90c529ef6c868aaf72c0898b": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T12:05:08.759148598Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120643Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=faab323d4fe3bd18e7c49896901e58cf91c961f9e7f8f68d58ab9e9cd31c51f7": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T12:06:43.001979828Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120806Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d164d034afd562edf19e6cbf7d3f881bf20e8db50b02ed691307682604b72f5d": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T12:08:06.051190895Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121016Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=a19a6c2d44d2bc44877b97d9ac3ea8314430d6f3de80d04c8a1449e8ba1bfad9": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T12:10:16.284673589Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121144Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=872d643ebc6d742fc6134de0c16acb207b44327accb718b076dfa441b63f8b83": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T12:11:44.27037799Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121819Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d294ad2b913dcd067899cf7fc82928bfadb5953ef5ee4187b9ab7feece0bd47b": {
+			"share": "http://host.docker.internal:9000/c07-reports/dashboards/C07_BASE_DASHBOARD.md",
+			"versionID": "",
+			"date": "2025-08-18T12:18:19.790288032Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T105341Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=33c52eb95004d44695bf18a1cb75ec72053d7e43507dcd7be83dbba5116aba9c": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T10:53:41.376942212Z",
+			"expiry": 86400000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T110336Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=50d8087491fee98dc772dd538b92cd328a2d53918a7334fc2b8d984bdd1c5318": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T11:03:36.263692562Z",
+			"expiry": 86400000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T111345Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=1480541d9409811807e1b07c95ed64fb089103f3f7c9a634db118859f984d028": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T11:13:45.897969925Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T111657Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=15f94e800b66c0f64d58625304a6db6fee4ab36e779608902093afc145944de7": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T11:16:57.288035183Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120011Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=e97e8ab8520a8307bb263b3a32521b3363c993f0801847063d54ebc874d57f50": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T12:00:11.914605093Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120507Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=490b2e7b1f91a035d26314aa1115a3325062445696ce20c4ca44a1f570a93ee2": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T12:05:07.899499186Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120642Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=316765fa93d25138328ee1a1feae589684d0068eaa2fd03b16498da1873d664f": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T12:06:42.141631322Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T120805Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c38dd34d436d89bacddb2b9edeb07c07314a3b0ede96ca1ed01c143ed877b57d": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T12:08:05.170397326Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121015Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=f9d82f4afa3b93a7717286b35f597252e621a3b7526728ddab5d67d71ed4ed8a": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T12:10:15.435746412Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121143Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=9fd44caa7390fa60bb1fa3314f5cd09cdce6cb1f6984dce364b78540710cf296": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T12:11:43.485494942Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T121818Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=8f9457d4c07e9b82067adc0ad84bcddd2c6826b8e49a8da1e86b60c98564b8c3": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T12:18:18.936325944Z",
+			"expiry": 604800000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T103152Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=1f8f488d715ac0a562e27fee56012864169f20b259bafdcf6c5a9b515e6656b0": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T10:31:52.586543723Z",
+			"expiry": 86400000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T104229Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=fb1107b23d362ef6e1d51305cb5a55cd8941f22c35f1a20b91a416ab1cdb7239": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T10:42:29.948280747Z",
+			"expiry": 86400000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T104424Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=9ccea525bdd647e9c75b15aa87067e2caefccdd6a4a15ed059b928f8f5bdd767": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T10:44:24.554723951Z",
+			"expiry": 86400000000000
+		},
+		"http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T104959Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=27fa8a9d36e28a2a74094660dfffb6c636ac783403747f1575f7e45920fd5f3a": {
+			"share": "http://host.docker.internal:9000/c07-reports/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T10:49:59.976062235Z",
+			"expiry": 86400000000000
+		},
+		"http://minio:9000/c07-reports/weekly_report_2025-W34.md?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=c07_pub2%2F20250818%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250818T102944Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=48f55c65f9830cf9c1b7028c230041889d14f331a6f1551f067457a942bff6ed": {
+			"share": "http://minio:9000/c07-reports/weekly_report_2025-W34.md",
+			"versionID": "",
+			"date": "2025-08-18T10:29:44.259938048Z",
+			"expiry": 86400000000000
+		}
+	}
+}

@@ -1,0 +1,36 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250824210600
+Username: DESKTOP-2OLDAUU\serge
+RunAs User: DESKTOP-2OLDAUU\serge
+Configuration Name: 
+Machine: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Host Application: powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File C:\CHECHA_CORE\tools\C07_oneclick_wrap.ps1
+Process ID: 21952
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+docker: error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktop
+LinuxEngine: The system cannot find the file specified.
+
+Run 'docker run --help' for more information
+docker: error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktop
+LinuxEngine: The system cannot find the file specified.
+
+Run 'docker run --help' for more information
+No weekly report found under c07/c07-reports (weekly/ or root)
+At C:\CHECHA_CORE\tools\C07_oneclick.ps1:56 char:22
++ ... weeklyKey){ throw "No weekly report found under $Alias/$Bucket (weekl ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (No weekly repor...eekly/ or root):String) [], RuntimeException
+    + FullyQualifiedErrorId : No weekly report found under c07/c07-reports (weekly/ or root)
+**********************
+Windows PowerShell transcript end
+End time: 20250824210601
+**********************

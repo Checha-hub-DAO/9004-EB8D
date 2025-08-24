@@ -1,0 +1,8 @@
+# C11 vault_bot — config.yaml
+# Реальні шляхи для поточної збірки на основі створених файлів.
+
+C12_DIR: "/mnt/data/C12_v2.1"              # каталог із README.md, INDEX.md, C12-FLOW.md
+C03_LOG: "/mnt/data/C03_LOG.md"            # лог релізів
+C05_ARCHIVE: "/mnt/data/C05_ARCHIVE.md"    # архів релізів
+ARCHIVE_OUT: "/mnt/data"                   # куди класти ReleaseBundle.zip
+DEFAULT_RELEASE_PREFIX: "C12_v"            # префікс версій

@@ -1,0 +1,672 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250814135806
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 19288
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=5; OK=4; PROGRESS=0; START=1; FAIL=0; backups=1 last=10:27:53; restore=2025-08-14 12:02:02 OK
+| Date | Events | OK | FAIL | PROGRESS | START | Backups(today) | LastBackup(time) | LastRestoreDrill |
+|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2025-08-14 | 5 | 4 | 0 | 0 | 1 | 1 | 10:27:53 | 2025-08-14 12:02:02 OK |
+
+
+### Day Start - 2025-08-14
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 13:58 - Day Start executed
+- Today: total=5; status=[OK=4, START=1]; modules=[system=1, c07-report=1, g43-iteta=1, c05-archive=1, restore-drill=1]. (KPI updated)
+
+| restore-drill | OK | 1 |
+| system | OK | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+| restore-drill | 1 |
+| system | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250814135806
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250814153215
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 7916
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=9; OK=8; PROGRESS=0; START=1; FAIL=0; backups=1 last=10:27:53; restore=2025-08-14 12:02:02 OK
+| Date | Events | OK | FAIL | PROGRESS | START | Backups(today) | LastBackup(time) | LastRestoreDrill |
+|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2025-08-14 | 9 | 8 | 0 | 0 | 1 | 1 | 10:27:53 | 2025-08-14 12:02:02 OK |
+
+
+### Day Start - 2025-08-14
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 15:32 - Day Start executed
+- Today: total=9; status=[OK=8, START=1]; modules=[system=1, c07-report=1, g43-iteta=1, c05-archive=1, restore-drill=1, weekly-summary=4]. (KPI updated)
+
+| weekly-summary | OK | 4 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+| restore-drill | 1 |
+| system | 1 |
+| weekly-summary | 4 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250814153216
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250815112749
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 13740
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=14; OK=13; PROGRESS=0; START=1; FAIL=0; backups=1 last=11:27:49; restore=2025-08-14 12:02:02 OK
+|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2025-08-14 | 9 | 8 | 0 | 0 | 1 | 1 | 10:27:53 | 2025-08-14 12:02:02 OK |
+| 2025-08-15 | 14 | 13 | 0 | 0 | 1 | 1 | 11:27:49 | 2025-08-14 12:02:02 OK |
+
+
+### Day Start - 2025-08-15
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 11:27 - Day Start executed
+- Today: total=14; status=[OK=13, START=1]; modules=[c07_push_monitor=1, watchdog_push=1, ilm_cleanup=1, operator_sheet=1, focus=1, c11_fix=1, scheduler=1, report_hardening=1, focus_fix=1, backup_fix=1, notifications=1, c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+| c07_push_monitor | 1 |
+| c07-report | 1 |
+| c11_fix | 1 |
+| focus | 1 |
+| focus_fix | 1 |
+| g43-iteta | 1 |
+| ilm_cleanup | 1 |
+| notifications | 1 |
+| operator_sheet | 1 |
+| report_hardening | 1 |
+| scheduler | 1 |
+| watchdog_push | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250815112749
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250816090002
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 13620
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=3; OK=2; PROGRESS=0; START=1; FAIL=0; backups=1 last=09:00:03; restore=2025-08-14 12:02:02 OK
+| 2025-08-14 | 9 | 8 | 0 | 0 | 1 | 1 | 10:27:53 | 2025-08-14 12:02:02 OK |
+| 2025-08-15 | 14 | 13 | 0 | 0 | 1 | 1 | 11:27:49 | 2025-08-14 12:02:02 OK |
+| 2025-08-16 | 3 | 2 | 0 | 0 | 1 | 1 | 09:00:03 | 2025-08-14 12:02:02 OK |
+
+
+### Day Start - 2025-08-16
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 09:00 - Day Start executed
+- Today: total=3; status=[OK=2, START=1]; modules=[c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+|---|---|---|
+| c05-archive | OK | 1 |
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250816090003
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250817124600
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 16192
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=4; OK=3; PROGRESS=0; START=1; FAIL=0; backups=1 last=12:46:01; restore=2025-08-17 01:15:01 OK
+| 2025-08-15 | 14 | 13 | 0 | 0 | 1 | 1 | 11:27:49 | 2025-08-14 12:02:02 OK |
+| 2025-08-16 | 3 | 2 | 0 | 0 | 1 | 1 | 09:00:03 | 2025-08-14 12:02:02 OK |
+| 2025-08-17 | 4 | 3 | 0 | 0 | 1 | 1 | 12:46:01 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-17
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 12:46 - Day Start executed
+- Today: total=4; status=[OK=3, START=1]; modules=[restore-drill=1, c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+| restore-drill | OK | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+| restore-drill | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250817124601
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250818112100
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 7124
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=5; OK=3; PROGRESS=0; START=1; FAIL=0; backups=1 last=11:21:00; restore=2025-08-17 01:15:01 OK
+| 2025-08-16 | 3 | 2 | 0 | 0 | 1 | 1 | 09:00:03 | 2025-08-14 12:02:02 OK |
+| 2025-08-17 | 4 | 3 | 0 | 0 | 1 | 1 | 12:46:01 | 2025-08-17 01:15:01 OK |
+| 2025-08-18 | 5 | 3 | 0 | 0 | 1 | 1 | 11:21:00 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-18
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 11:21 - Day Start executed
+- Today: total=5; status=[OK=3, WARN=1, START=1]; modules=[c11_backup_sync=1, c11_health_check=1, c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+| c11_health_check | WARN | 1 |
+| g43-iteta | START | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| c11_backup_sync | 1 |
+| c11_health_check | 1 |
+| g43-iteta | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250818112100
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250818170904
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 2868
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=6; OK=3; PROGRESS=0; START=1; FAIL=1; backups=1 last=11:21:00; restore=2025-08-17 01:15:01 OK
+
+
+| 2025-08-18 | 6 | 3 | 1 | 0 | 1 | 1 | 11:21:00 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-18
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 17:09 - Day Start executed
+- Today: total=6; status=[OK=3, WARN=1, START=1, FAIL=1]; modules=[c11_backup_sync=1, c11_health_check=1, c07-report=1, g43-iteta=1, c05-archive=1, system=1]. (KPI updated)
+
+| system | FAIL | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| c11_backup_sync | 1 |
+| c11_health_check | 1 |
+| g43-iteta | 1 |
+| system | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250818170905
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250819110404
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 9580
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=7; OK=6; PROGRESS=0; START=1; FAIL=0; backups=1 last=11:04:04; restore=2025-08-17 01:15:01 OK
+
+| 2025-08-18 | 6 | 3 | 1 | 0 | 1 | 1 | 11:21:00 | 2025-08-17 01:15:01 OK |
+| 2025-08-19 | 7 | 6 | 0 | 0 | 1 | 1 | 11:04:04 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-19
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 11:04 - Day Start executed
+- Today: total=7; status=[OK=6, START=1]; modules=[core-install=1, c07-weekly-mv=2, core-fix=1, c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+| g43-iteta | START | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| c07-weekly-mv | 2 |
+| core-fix | 1 |
+| core-install | 1 |
+| g43-iteta | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250819110405
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250820090002
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 22412
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=3; OK=2; PROGRESS=0; START=1; FAIL=0; backups=1 last=09:00:02; restore=2025-08-17 01:15:01 OK
+| 2025-08-18 | 6 | 3 | 1 | 0 | 1 | 1 | 11:21:00 | 2025-08-17 01:15:01 OK |
+| 2025-08-19 | 7 | 6 | 0 | 0 | 1 | 1 | 11:04:04 | 2025-08-17 01:15:01 OK |
+| 2025-08-20 | 3 | 2 | 0 | 0 | 1 | 1 | 09:00:02 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-20
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 09:00 - Day Start executed
+- Today: total=3; status=[OK=2, START=1]; modules=[c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+|---|---|---|
+| c05-archive | OK | 1 |
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250820090002
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250820134517
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 9496
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=4; OK=3; PROGRESS=0; START=1; FAIL=0; backups=1 last=09:00:02; restore=2025-08-17 01:15:01 OK
+| 2025-08-18 | 6 | 3 | 1 | 0 | 1 | 1 | 11:21:00 | 2025-08-17 01:15:01 OK |
+| 2025-08-19 | 7 | 6 | 0 | 0 | 1 | 1 | 11:04:04 | 2025-08-17 01:15:01 OK |
+| 2025-08-20 | 4 | 3 | 0 | 0 | 1 | 1 | 09:00:02 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-20
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 13:45 - Day Start executed
+- Today: total=4; status=[OK=3, START=1]; modules=[c07-report=1, g43-iteta=1, c05-archive=1, weekly-summary=1]. (KPI updated)
+
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+| weekly-summary | OK | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+| weekly-summary | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250820134517
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250821105359
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 4600
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=3; OK=2; PROGRESS=0; START=1; FAIL=0; backups=1 last=10:53:59; restore=2025-08-17 01:15:01 OK
+| 2025-08-19 | 7 | 6 | 0 | 0 | 1 | 1 | 11:04:04 | 2025-08-17 01:15:01 OK |
+| 2025-08-20 | 4 | 3 | 0 | 0 | 1 | 1 | 09:00:02 | 2025-08-17 01:15:01 OK |
+| 2025-08-21 | 3 | 2 | 0 | 0 | 1 | 1 | 10:53:59 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-21
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 10:53 - Day Start executed
+- Today: total=3; status=[OK=2, START=1]; modules=[c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+|---|---|---|
+| c05-archive | OK | 1 |
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250821105359
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250822090002
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 16136
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=3; OK=2; PROGRESS=0; START=1; FAIL=0; backups=1 last=09:00:02; restore=2025-08-17 01:15:01 OK
+| 2025-08-20 | 4 | 3 | 0 | 0 | 1 | 1 | 09:00:02 | 2025-08-17 01:15:01 OK |
+| 2025-08-21 | 3 | 2 | 0 | 0 | 1 | 1 | 10:53:59 | 2025-08-17 01:15:01 OK |
+| 2025-08-22 | 3 | 2 | 0 | 0 | 1 | 1 | 09:00:02 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-22
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 09:00 - Day Start executed
+- Today: total=3; status=[OK=2, START=1]; modules=[c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+|---|---|---|
+| c05-archive | OK | 1 |
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250822090002
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250823195426
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 11984
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=3; OK=2; PROGRESS=0; START=1; FAIL=0; backups=1 last=19:54:27; restore=2025-08-17 01:15:01 OK
+| 2025-08-22 | 3 | 2 | 0 | 0 | 1 | 1 | 09:00:02 | 2025-08-17 01:15:01 OK |
+
+| 2025-08-23 | 3 | 2 | 0 | 0 | 1 | 1 | 19:54:27 | 2025-08-17 01:15:01 OK |
+
+
+### Day Start - 2025-08-23
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 19:54 - Day Start executed
+- Today: total=3; status=[OK=2, START=1]; modules=[c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+|---|---|---|
+| c05-archive | OK | 1 |
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250823195428
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20250824091944
+Имя пользователя: WORKGROUP\СИСТЕМА
+Запуск от имени пользователя: WORKGROUP\СИСТЕМА
+Имя конфигурации: 
+Компьютер: DESKTOP-2OLDAUU (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command Start-Transcript -Path 'C:\CHECHA_CORE\logs\daystart_20250814_135805.log' -Append; & 'C:\CHECHA_CORE\scripts\DayStart_core.ps1'; Stop-Transcript
+ИД процесса: 14748
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\CHECHA_CORE\logs\daystart_20250814_135805.log
+OK: day start done -> total=4; OK=3; PROGRESS=0; START=1; FAIL=0; backups=1 last=09:19:45; restore=2025-08-24 09:07:11 OK
+
+| 2025-08-23 | 3 | 2 | 0 | 0 | 1 | 1 | 19:54:27 | 2025-08-17 01:15:01 OK |
+| 2025-08-24 | 4 | 3 | 0 | 0 | 1 | 1 | 09:19:45 | 2025-08-24 09:07:11 OK |
+
+
+### Day Start - 2025-08-24
+- План: WIP 1 core + 1 creative; >=1 подія в LOG; >=1 backup.
+- Старт: G43 Topic #3 v0.1 (чернетка) - каркас + TL;DR/Сигнали/Вплив.
+- До кінця дня: синхронізувати `health-summary` і `KPI`.
+### Update 09:19 - Day Start executed
+- Today: total=4; status=[OK=3, START=1]; modules=[restore-drill=1, c07-report=1, g43-iteta=1, c05-archive=1]. (KPI updated)
+
+| c07-report | OK | 1 |
+| g43-iteta | START | 1 |
+| restore-drill | OK | 1 |
+
+## Modules (total today)
+
+| Module | Count |
+|---|---:|
+| c05-archive | 1 |
+| c07-report | 1 |
+| g43-iteta | 1 |
+| restore-drill | 1 |
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20250824091945
+**********************

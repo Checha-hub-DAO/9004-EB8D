@@ -1,0 +1,84 @@
+Param(
+  [string]$Root           = "C:\CHECHA_CORE",
+  [string]$Alias          = "c07",
+  [string]$AliasWeb       = "c07-web",
+  [string]$Bucket         = "c07-reports",
+  [string]$DockerNetwork  = "checha_core_default",
+  # 168h = 7 днів (mc не розуміє '7d')
+  [string]$Expire         = "168h"
+)
+
+$ErrorActionPreference = 'Stop'
+$cfg = Join-Path $Root ".mc"
+
+function Mc([string[]]$Args) {
+  $all = @("run","--rm","--network",$DockerNetwork,
+           "-v","$(${cfg}):/root/.mc",
+           "minio/mc") + $Args
+  $out = & docker @all 2>&1
+  if ($LASTEXITCODE -ne 0) { throw ($out -join "`n") }
+  return $out
+}
+
+# ---- 1) Знайти weekly в папці weekly/ ----
+$weeklyKeys =
+  (Mc @("find","$Alias/$Bucket/weekly","--name","weekly_report_*.md","--json")) |
+  % { if ($_ -match '"type"\s*:\s*"file"') { ($_ | ConvertFrom-Json).key } }
+
+# ---- 2) Якщо нема — пошукати у корені бакета і перемістити в weekly/ ----
+if (-not $weeklyKeys -or $weeklyKeys.Count -eq 0) {
+  $rootCandidates =
+    (Mc @("find","$Alias/$Bucket","--depth","1","--name","weekly_report_*.md","--json")) |
+    % { if ($_ -match '"type"\s*:\s*"file"') { ($_ | ConvertFrom-Json).key } }
+
+  if ($rootCandidates -and $rootCandidates.Count -gt 0) {
+    $move = ($rootCandidates | Sort-Object -Descending | Select-Object -First 1)
+    Mc @("mv","$Alias/$Bucket/$move","$Alias/$Bucket/weekly/")
+    $weeklyKey = "weekly/" + (Split-Path -Leaf $move)
+  } else {
+    # ---- 3) Як зовсім нема — згенерувати свіжий weekly ----
+    & "$Root\tools\C07_weekly_now.ps1" -Root $Root -AliasName $Alias -Bucket $Bucket -DockerNetwork $DockerNetwork
+
+    $gen =
+      (Mc @("find","$Alias/$Bucket","--depth","1","--name","weekly_report_*.md","--json")) |
+      % { if ($_ -match '"type"\s*:\s*"file"') { ($_ | ConvertFrom-Json).key } }
+
+    if (-not $gen -or $gen.Count -eq 0) { throw "Weekly report still not found after generation." }
+
+    $move = ($gen | Sort-Object -Descending | Select-Object -First 1)
+    Mc @("mv","$Alias/$Bucket/$move","$Alias/$Bucket/weekly/")
+    $weeklyKey = "weekly/" + (Split-Path -Leaf $move)
+  }
+} else {
+  $weeklyKey = ($weeklyKeys | Sort-Object -Descending | Select-Object -First 1)
+}
+
+# ---- 4) Presign (через c07-web) ----
+function Presign($obj) {
+  $out = Mc @("share","download","--expire",$Expire,"$AliasWeb/$Bucket/$obj")
+  ($out -split "`r?`n") | ? { $_ -match 'https?://' } | Select-Object -Last 1
+}
+
+$weeklyLink    = Presign $weeklyKey
+$dashboardLink = Presign "dashboards/C07_BASE_DASHBOARD.md"
+$kpiLink       = Presign "KPI_TRACKER.md"
+
+# ---- 5) Зберегти та показати ----
+$linksDir  = Join-Path $Root "C07\_links"
+New-Item -ItemType Directory -Force -Path $linksDir | Out-Null
+$linksFile = Join-Path $linksDir "latest.txt"
+
+$lines = @(
+  "Weekly   : $weeklyLink",
+  "Dashboard: $dashboardLink",
+  "KPI      : $kpiLink"
+)
+$lines | Set-Content -Encoding UTF8 -Path $linksFile
+
+Write-Host "Links saved to: $linksFile"
+$lines | % { Write-Host $_ }
+
+# ---- 6) Відкрити у браузері (якщо можливо) ----
+foreach($l in @($weeklyLink,$dashboardLink,$kpiLink)){
+  if ($l) { Start-Process $l }
+}
