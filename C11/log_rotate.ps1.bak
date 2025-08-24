@@ -1,0 +1,15 @@
+﻿param([string]$Path, [int]$MaxKB=512, [int]$Keep=5)
+if (-not (Test-Path $Path)) { return }
+$info = Get-Item $Path
+if ($info.Length -gt ($MaxKB*1KB)) {
+  $dir = Split-Path $Path
+  $name = Split-Path $Path -Leaf
+  1..($Keep-1) | ForEach-Object {
+    $i = $Keep - $_
+    $src = Join-Path $dir "$name.$i"
+    $dst = Join-Path $dir "$name.$($i+1)"
+    if (Test-Path $src) { Move-Item $src $dst -Force }
+  }
+  Move-Item $Path (Join-Path $dir "$name.1") -Force
+  New-Item -ItemType File -Path $Path -Force | Out-Null
+}

@@ -1,0 +1,60 @@
+[2025-08-15 00:49:19] cd -> C:\Windows\System32
+[2025-08-15 00:49:19] whoami=desktop-2oldauu\serge
+[2025-08-15 00:49:19] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-15 00:49:19] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-15 00:49:22] compose run exit: 0
+[2025-08-15 00:49:22] push sent: status=up
+[2025-08-15 01:00:07] cd -> C:\Windows\System32
+[2025-08-15 01:00:07] whoami=desktop-2oldauu\serge
+[2025-08-15 01:00:07] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-15 01:00:08] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-15 01:00:09] compose run exit: 0
+[2025-08-15 01:00:10] push sent: status=up
+[2025-08-15 01:02:04] cd -> C:\Windows\System32
+[2025-08-15 01:02:04] whoami=desktop-2oldauu\serge
+[2025-08-15 01:02:04] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-15 01:02:04] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-15 01:02:06] compose run exit: 0
+[2025-08-15 01:02:06] push sent: status=up
+[2025-08-15 19:30:01] cd -> C:\Windows\System32
+[2025-08-15 19:30:01] whoami=desktop-2oldauu\serge
+[2025-08-15 19:30:01] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-15 19:30:01] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-15 19:30:03] compose run exit: 0
+[2025-08-15 19:30:03] push sent: status=up
+[2025-08-17 23:10:13] cd -> C:\Windows\System32
+[2025-08-17 23:10:13] whoami=desktop-2oldauu\serge
+[2025-08-17 23:10:13] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-17 23:10:14] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-17 23:10:16] compose run exit: 0
+[2025-08-17 23:10:16] push sent: status=up
+[2025-08-18 19:30:01] cd -> C:\Windows\System32
+[2025-08-18 19:30:01] whoami=desktop-2oldauu\serge
+[2025-08-18 19:30:01] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-18 19:30:01] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-18 19:30:03] compose run exit: 0
+[2025-08-18 19:30:03] push failed: 
+[2025-08-19 19:30:01] cd -> C:\Windows\System32
+[2025-08-19 19:30:01] whoami=desktop-2oldauu\serge
+[2025-08-19 19:30:01] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-19 19:30:01] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-19 19:30:03] compose run exit: 0
+[2025-08-19 19:30:03] push failed: 
+[2025-08-21 19:30:01] cd -> C:\Windows\System32
+[2025-08-21 19:30:02] whoami=desktop-2oldauu\serge
+[2025-08-21 19:30:02] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-21 19:30:02] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-21 19:30:02] compose run exit: 1
+[2025-08-21 19:30:07] push failed: 
+[2025-08-23 19:50:11] cd -> C:\Windows\System32
+[2025-08-23 19:50:11] whoami=desktop-2oldauu\serge
+[2025-08-23 19:50:11] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-23 19:50:11] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-23 19:50:12] compose run exit: 1
+[2025-08-23 19:50:16] push failed: 
+[2025-08-24 19:30:01] cd -> C:\Windows\System32
+[2025-08-24 19:30:01] whoami=desktop-2oldauu\serge
+[2025-08-24 19:30:02] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-24 19:30:02] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-24 19:30:02] compose run exit: 1
+[2025-08-24 19:30:06] push failed: 

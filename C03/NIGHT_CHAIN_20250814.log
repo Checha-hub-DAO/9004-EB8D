@@ -1,0 +1,56 @@
+================= NIGHT CHAIN START =================
+[!TS!] Backup starting...
+Backup failed after retries when creating TEMP zip.
+At C:\CHECHA_CORE\C11_AUTOMATION\c11_backup_sync_fixed.ps1:47 char:5
++     throw "Backup failed after retries when creating TEMP zip."
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Backup failed a...ating TEMP zip.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Backup failed after retries when creating TEMP zip.
+ 
+[!TS!] Backup finished, rc=!RC_BACKUP!
+[!TS!] Health-check starting...
+Status: WARN
+Summary: [HEALTH] issues: no zip in archive dir; focus not updated today; report not updated today; task FOCUS missing/not ready; task REPORT missing/not ready; task BACKUP missing/not ready | notes: 
+[!TS!] Health OK.
+[!TS!] PREP normalize...
+The argument 'C:\CHECHA_CORE\C11_AUTOMATION\c11_prep_normalize.ps1' to the -File parameter does not exist. Provide the path to an existing '.ps1' file as an argument to the -File parameter.
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+[!TS!] PREP normalize finished, rc=!RC_PREP!
+[!TS!] EOD starting...
+EOD complete. WARN exported to: C:\CHECHA_CORE\C03\WARN_20250814.log
+[!TS!] EOD finished, rc=!RC_EOD!
+[!TS!] NIGHT CHAIN done. (backup=!RC_BACKUP!, health=!RC_HEALTH!, prep=!RC_PREP!, eod=!RC_EOD!)
+[START] 14.08.2025  0:04:42,22  
+ROOT=C:\CHECHA_CORE 
+[BACKUP] start 
+[BACKUP] rc=1 
+[HEALTH] start 
+[START] 14.08.2025  0:11:10,90  
+ROOT=C:\CHECHA_CORE 
+[BACKUP] start 
+[BACKUP] rc=0 
+[HEALTH] start 
+[START] 14.08.2025  0:12:27,52  
+ROOT=C:\CHECHA_CORE 
+[BACKUP] start 
+[BACKUP] rc=0 
+[HEALTH] start 
+[START] 14.08.2025  0:18:13,17  
+ROOT=C:\CHECHA_CORE 
+[BACKUP] start 
+[BACKUP] rc=0 
+[HEALTH] start 
+[START] 14.08.2025  0:23:00,82  
+ROOT=C:\CHECHA_CORE 
+[BACKUP] start 
+[BACKUP] rc=0 
+[HEALTH] start 
+[START] 14.08.2025 23:55:01,39  
+ROOT=C:\CHECHA_CORE 
+[BACKUP] start 
+[BACKUP] rc=0 
+[HEALTH] start 

@@ -1,0 +1,14 @@
+[2025-08-15 01:09:37] whoami=desktop-2oldauu\serge
+[2025-08-15 01:09:37] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-15 01:09:37] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-15 01:09:37] mirror start -> D:\CHECHA_CORE\C05\Archive\MinIO_c07-reports_2025-08-15_010937
+[2025-08-15 01:09:37] mirror done
+[2025-08-15 01:09:37] zip created: D:\CHECHA_CORE\C05\Archive\MinIO_c07-reports_2025-08-15_010937.zip
+[2025-08-15 01:09:37] prune >30d done
+[2025-08-15 01:10:06] whoami=desktop-2oldauu\serge
+[2025-08-15 01:10:06] docker: Docker version 28.3.2, build 578ccf6
+[2025-08-15 01:10:06] compose: Docker Compose version v2.39.1-desktop.1
+[2025-08-15 01:10:06] mirror start -> D:\CHECHA_CORE\C05\Archive\MinIO_c07-reports_2025-08-15_011006
+[2025-08-15 01:10:06] mirror done
+[2025-08-15 01:10:06] zip created: D:\CHECHA_CORE\C05\Archive\MinIO_c07-reports_2025-08-15_011006.zip
+[2025-08-15 01:10:06] prune >30d done
