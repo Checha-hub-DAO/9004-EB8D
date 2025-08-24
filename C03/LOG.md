@@ -42,3 +42,4 @@
 | 2025-08-24 | C12_v2.3.2025.08.24_144418_ReleaseBundle | ✅ AutoUpdate (0 items, 0 replaced) | 2a56f8131e42ace7f4cbdfad3d01f99560715a13d8b1c40c7edcadc617948b3f |
 | 2025-08-24 18:32:36 | weekly-summary | OK | span 2025-08-18..2025-08-24
 | 2025-08-24 20:00:11 | auto-archive | OK |
+| 2025-08-24 23:40:08 | c05-archive | OK | full backup: CHECHA_CORE_FULL_20250824_234002.zip
