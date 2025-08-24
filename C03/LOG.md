@@ -43,3 +43,5 @@
 | 2025-08-24 18:32:36 | weekly-summary | OK | span 2025-08-18..2025-08-24
 | 2025-08-24 20:00:11 | auto-archive | OK |
 | 2025-08-24 23:40:08 | c05-archive | OK | full backup: CHECHA_CORE_FULL_20250824_234002.zip
+| 2025-08-25 00:04:19 | c11_backup_sync | OK | [AUTO] backup completed: C:\CHECHA_CORE\C05\Archive\2025-08-24\CHECHA_CORE_2025-08-24_23-55-02.zip + restore check OK
+| 2025-08-25 00:04:20 | c11_health_check | WARN | [HEALTH] issues: archive dir missing; focus not updated today; report not updated today; task FOCUS missing/not ready; task REPORT missing/not ready; task BACKUP missing/not ready | notes: 
