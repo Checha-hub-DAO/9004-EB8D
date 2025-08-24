@@ -19,3 +19,6 @@ C05/Archive/
 # audit artifacts
 include.list
 upload_plan.csv
+
+# allow C12_v2.2
+!C12_v2.2/**
