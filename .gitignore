@@ -22,3 +22,6 @@ upload_plan.csv
 
 # allow C12_v2.2
 !C12_v2.2/**
+
+# release bundles
+C12_v2.2/*.zip
