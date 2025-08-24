@@ -15,3 +15,7 @@ C05/Archive/
 *.wav
 *.psd
 *.ai
+
+# audit artifacts
+include.list
+upload_plan.csv
