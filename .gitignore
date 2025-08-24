@@ -1,0 +1,17 @@
+﻿# великі/непотрібні у git
+C05/Archive/
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.xz
+*.iso
+*.img
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.psd
+*.ai
